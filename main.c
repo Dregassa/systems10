@@ -23,7 +23,8 @@ int main(){
 	signal(SIGINT, sighandler);
 	signal(SIGUSR1, sighandler);
 	
-	printf("%d\n",SIGUSR1);
+	//printf("%d\n",SIGUSR1);
+	
 	while(1){
 		printf("PID: %d\n", getpid());
 		sleep(1);
